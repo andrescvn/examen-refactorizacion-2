@@ -4,12 +4,8 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        int j;
-        int f;
-
-        j = 8;
-
-        int i;
+        int f,i,j=8;
+ 
         if (j == 0) {
             f = 1;
         } else {
