@@ -1,22 +1,14 @@
 package factorial;
 
 public class Factorial {
-    
+
     public static void main(String[] args) {
         Metodos met = new Metodos();
-        int f, i, j = 8;
-        
-        if (j == 0) {
-            f = 1;
-        } else {
-            f = 1;
-            for (i = j; i >= 1; i--) {
-                f = f * i;
-            }
-        }
+        int i,f = 1, j = 8;
+
+        for (i = j; i >= 1; i--) 
+            f = f * i;
         
         met.amosar(f);
-        
     }
-    
 }
