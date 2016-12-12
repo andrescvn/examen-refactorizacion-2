@@ -1,11 +1,11 @@
 package factorial;
 
 public class Factorial {
-
+    
     public static void main(String[] args) {
-
-        int f,i,j=8;
- 
+        Metodos met = new Metodos();
+        int f, i, j = 8;
+        
         if (j == 0) {
             f = 1;
         } else {
@@ -14,9 +14,9 @@ public class Factorial {
                 f = f * i;
             }
         }
-
-        System.out.println(f);
-
+        
+        met.amosar(f);
+        
     }
-
+    
 }

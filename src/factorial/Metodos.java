@@ -10,5 +10,8 @@ package factorial;
  * @author acomesanavila
  */
 public class Metodos {
-    
+
+    public void amosar(int f) {
+        System.out.println(f);
+    }
 }
