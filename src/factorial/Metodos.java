@@ -15,11 +15,4 @@ public class Metodos {
         System.out.println(f);
     }
 
-    public int multiplicacion(int f, int j) {
-        for (int i = j; i >= 1; i--) {
-            f = f * i;
-        }
-        return f;
-
-    }
 }
